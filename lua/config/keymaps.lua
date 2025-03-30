@@ -30,3 +30,6 @@ keymap.set("n", "sl", "<C-w>l")
 -- Disable continuations
 keymap.set("n", "<Leader>o", "o<Esc>^Da", opts_silent)
 keymap.set("n", "<Leader>O", "O<Esc>^Da", opts_silent)
+
+-- Clear Highlights
+keymap.set("n", "<esc><esc>", "<cmd>noh<CR>", opts_silent)
